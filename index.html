@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natraj Dance Academy</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+
+ 
+<style>
+
+</style>
+
+<body>
+  
+<section class="nav-link-contact">
+<div class="container">
+  <div class="social-icons">
+    <a href="https://www.facebook.com/">
+      <img src="icons/facebook.svg" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/">
+      <img src="icons/instagram.svg" alt="Instagram">
+    </a>
+    <a href="https://www.youtube.com/">
+      <img src="icons/youtube.svg" alt="YouTube">
+    </a>
+  </div>
+  <div class="phone-number">
+    <span>📞 : </span>
+    <!-- <input type="tel" value="00000000" style="background-color:  #FFD700;border: none;">  -->
+    <span>+91 000000000</span>
+  </div>
+</div></section>
+
+
+
+
+    <header>
+        <nav>
+ 
+            <ul>
+          
+                <li><a href="#">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#STYLES">STYLES</a></li>
+                <li><a href="#PRICING">PRICING & TIMINGS</a></li>
+                <li><a href="#CONTACT">CONTACT US</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+
+    
+
+
+    <main>
+      <section class="home-sec">
+
+        
+          
+          
+          
+  
+          
+          <div class="slideshow-container">
+
+            
+          
+          <div class="mySlides fade">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <img src="IMAGES/sll1.jpg" style="width:100%">
+            <!-- <div class="text">Caption Text</div> -->
+          </div>
+          
+          <div class="mySlides fade">
+            <!-- <div class="numbertext">2 / 3</div> -->
+            <img src="IMAGES/sll2.jpg" style="width:100%">
+            <!-- <div class="text">Caption Two</div> -->
+          </div>
+          
+          <div class="mySlides fade">
+            <!-- <div class="numbertext">3 / 3</div> -->
+            <img src="IMAGES/sll3.jpg" style="width:100%">
+            <!-- <div class="text">Caption Three</div> -->
+          </div>
+          
+          </div>
+          
+          
+          <div style="text-align:center;visibility: hidden;">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+
+          <!-- <div style="display: block; margin: auto;"><img src="IMAGES/natraj.webp" alt=""  style="    width: 230px; background-color: ;
+    border-radius: 23px;"><br><p style=" text-align: center; color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: 700; font-size: x-large;">NATRAJ DANCE ACADEMY</p></div> -->
+
+          
+          <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+          </script>
+
+    </section>
+
+        <!-- <section class="hero">
+          
+           
+
+
+
+
+
+
+
+
+            <h1>Ignite Your Passion for Dance</h1>
+            <p>Ignite your passion for dance and experience the transformative power of movement at our thriving academy.</p>
+            <button>Watch Tutorials</button>
+        </section> -->
+    
+
+<section class="about-section" id="ABOUT">
+  <h1>About</h1>
+  <div class="about-container" >
+
+    <div class="about-img-container"><img src="IMAGES/nda_about.png" alt="" class="about-img"> <h2>Natraj Dance Academy</h2></div>
+    <div class="about-para"> 
+      <p>Students will develop musicality, coordination, strength, flexibility, dance technique, rhythm, and body awareness in a caring, nurturing environment. This class is an excellent way for children to be introduced to the many benefits of the performing arts, gain self-confidence and a sense of accomplishment. <br> 
+        Address: Do Batti Chauraha, Ratlam , Madhya Pradesh
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+        <section class="instructors" id="STYLES">
+            <h2>DANCE STYLES</h2>
+
+            <div class="style-container" >
+              <div class="style-card">
+                <img src="IMAGES/Styles/bollywood.jpeg" alt=""> <h2>Bollywood Dance</h2><br>
+                <p>Bollywood Dance style is a fusion of various dance styles. It includes Bharatanatyam, Kathak, Bhangra, Jazz, Hip-hop, Arabic, Western dance to name a few.</p>
+
+
+              </div>
+
+
+
+              <div class="style-card"><img src="IMAGES/Styles/Contemporary.jpg" alt=""><h2>Contemporary Dance</h2><br> 
+                <p >Contemporary dance blends elements of multiple dance styles and dancers express emotionality through movements and breath. Learn about the importance of contemporary dance as an art form through a brief exploration of its history, influences, and techniques.</p>
+              </div>
+              <div class="style-card"><img src="IMAGES/Styles/Folk-dance.jpg" alt=""><h2>Folk Dance</h2><br> 
+                <p >folk dance, generally, a type of dance that is a vernacular, usually recreational, expression of a past or present culture. The term folk dance was accepted until the mid-20th century.</p>
+              </div>
+
+
+              <div class="style-card"><img src="IMAGES/Styles/hip-hop.jpg" alt=""><h2>HIP-HOP Dance</h2><br>
+                 <p >Hip-hop dance is a vibrant form of dance that combines a variety of freestyle movements to create a cultural piece of art. Through its three main styles of popping, locking, and breaking, hip-hop dance has evolved into one of the most popular and influential styles of dance.</p></div>
+
+
+              <div class="style-card"><img src="IMAGES/Styles/JAZZ.jpg" alt=""><h2>Jazz Dance</h2><br> 
+                <p >Jazz dance is a performance dance and style that arose in the United States in the mid 20th century. Jazz dance may allude to vernacular jazz, Broadway or dramatic jazz.The two types expand on African American vernacular styles of dance that arose with jazz music.</p></div>
+
+              <div class="style-card"><img src="IMAGES/Styles/lyrical dance.webp" alt=""><h2>Lyrical Dance</h2><br> 
+                <p >Learn about lyrical dancing, a popular dance form that uses song lyrics to inspire choreography.</p></div>
+
+
+              <div class="style-card"><img src="IMAGES/Styles/michael jackson.jpeg" alt=""><h2>Michael Jackson</h2><br>
+                 <p > Michael's dancing was truly one of a kind, mixing several different styles like locking, popping, jazz, mime, tap, and numerous ballroom dances. His dancing didn't flourish until the 70s and 80s when he became a solo performer and released two major albums: Off the Wall and Thriller.</p></div>
+
+
+              <div class="style-card"><img src="IMAGES/Styles/popping dance.jpg" alt=""><h2>Popping Dance </h2><br> 
+                <p >Popping is a dance style that originated in the U.S. in the 60-70s, and is characterised by the sudden contracting and releasing of a dancer's muscles to the rhythm of the beat </p></div>
+
+
+              <div class="style-card"><img src="IMAGES/Styles/salsa dance.jpeg" alt=""><h2>Salsa Dance</h2><br> 
+                <p >Salsa is a dynamic, vibrant dance characterized by its energetic footwork, fluid turns, and rhythmic hip movements. Set to lively Latin music with a strong beat, it involves a mix of fast and slow movements, showcasing a playful and passionate interaction between partners.</p></div>
+            </div>
+
+
+
+           
+        </section>
+
+        <section class="pricing-section" id="PRICING">
+            <h2>Pricing</h2>
+            <div class="card-pricing" >
+              <div>
+            <ul>
+                <li>1 Month  </li>
+                <li>3 Months </li>
+                <li>6 Months </li>
+                <li>1 Year  </li>
+            </ul>
+          </div>
+          
+
+          <div class="prices">
+            <ul>
+              <li>1000rs</li> 
+            <li>2500rs</li> 
+            <li>5500</li>   
+            <li>11000rs</li> 
+          </ul> </div>
+          </div>
+        </section>
+        
+
+
+
+        <section class="timing-section">
+          <h2>Timings</h2>
+          <h3>Days - Mon to Sat</h3>
+          <div class="card-timing">
+            <div>
+          <ul class="timing-ul">
+              <li>Bollywood Dance                               </li>
+              <li>Contemporary Dance                                      </li>
+              <li>HIP-HOP Dance                                         </li>
+              <li>Lyrical Dance          </li>
+              <li>Freestyle Dance                                        </li>
+          </ul></div>
+
+          <div><ul class="time-colr"><li>9:00am to 11:00am</li>
+          <li>12:00pm to 2:00pm</li>
+          <li>4:00pm to 6:00pm</li>
+          <li>6:30pm to 8:15pm</li>
+          <li>8:30pm to 10:30pm</li></ul></div>
+
+
+
+        </div>
+      </section>
+
+
+      <section class="registration">
+        <div>
+          <p>YOU CAN CALL FOR ANY ENQUIRY OR REGISTRATION FOR DANCE CLASS </p>
+        </div>
+      </section>
+    </main>
+
+
+
+
+
+
+    <footer class="footer-section">
+      <div class="footer-container" id="CONTACT">
+        <div>
+          <a href="#" class="call-button">Call Us Now</a>
+        </div>
+        <div>
+          <a href="#">FAQS</a> | <a href="#">NEWS/BLOG</a>
+        </div>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="icon"><img src="icons/tel.png" alt=""></span>
+            <a href="tel:+910000000000">+91 0000000000</a>
+          </div>
+          <div class="contact-item">
+            <span class="icon"><img src="icons/gmail (1).png" alt=""></span>
+            <a href="mailto:dummy@gmail.com">nda@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        © 2024 NATRAJ DANCE ACADEMY. All Rights Reserved
+      </div>
+
+    </footer>
+</body>
+</html>
